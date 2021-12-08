@@ -1,0 +1,109 @@
+@media screen and (max-width: 2000px) {
+    .container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+    'header header header header header'
+    'left left left left left'
+    'main main right right right'
+    }
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.block.block1{
+    grid-area: header;
+    background-color: red;
+}
+.block.block2{
+    grid-area: left;
+    background-color: mediumpurple;
+}
+.block.block3 {
+    grid-area: main;
+    background-color: lightblue;
+}
+.block.block4{
+    grid-area: right;
+    background-color: blue;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+    'header header header header header'
+    'main main main main main'
+    'left left left left left'
+    'right right right right right'
+    }
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.block.block1{
+    grid-area: header;
+    background-color: red;
+}
+.block.block2{
+    grid-area: left;
+    background-color: mediumpurple;
+}
+.block.block3 {
+    grid-area: main;
+    background-color: lightblue;
+}
+.block.block4{
+    grid-area: right;
+    background-color: blue;
+}
+
+@media screen and (max-width: 772px) {
+    .container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+        'left left left left left'
+        'header header header header header'
+        'main main main main main'
+        'right right right right right'
+    }
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.block.block1{
+    grid-area: header;
+    background-color: red;
+}
+.block.block2{
+    grid-area: left;
+    background-color: mediumpurple;
+}
+.block.block3 {
+    grid-area: main;
+    background-color: lightblue;
+}
+.block.block4{
+    grid-area: right;
+    background-color: blue;
+}
